@@ -163,3 +163,26 @@ cython_debug/
 
 
 DS_Store/
+*.DS_Store
+
+pip-log.txt
+pip-delete-this-directory.txt
+
+bin/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+Drafts/
+*/build/
+build/
+venv/
+
+# Byte-compiled / optimized / DLL files
+.pytest_cache/
+__pycache__/
+*.py[cod]

@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61", "wheel", "setuptools_scm>=6.2"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "graphfoundationmodels"
+dependencies = [
+    'numpy',
+    'pandas',
+    'torchvision',
+    'torch_geometric',
+    'torch-spatiotemporal',
+    'torch_sparse'
+]
+license = { text = "BSD-2-Clause" }
+version = "2024.06.11"

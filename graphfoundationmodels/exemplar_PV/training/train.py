@@ -36,8 +36,9 @@ try:
     from torchvision import transforms, utils
     from torch_geometric.nn import ChebConv
     from tqdm import tqdm
-    from rwb_stgnn_functions import *
-    from rwb_dataloader_sunsmart import *
+    #from rwb_stgnn_functions import *
+    #from rwb_dataloader_sunsmart import *
+    from graphfoundationmodels.models.stGAE import STConvAE
     import matplotlib.pyplot as plt
     import seaborn as sns
 
