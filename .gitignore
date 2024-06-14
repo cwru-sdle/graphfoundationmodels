@@ -189,3 +189,6 @@ __pycache__/
 *.py[cod]
 
 data/
+
+*/lightning_logs/
+lightning_logs/
