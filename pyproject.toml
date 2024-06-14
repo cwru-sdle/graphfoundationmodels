@@ -15,3 +15,6 @@ dependencies = [
 ]
 license = { text = "BSD-2-Clause" }
 version = "2024.06.11"
+
+[tool.setuptools.packages.find]
+include = ["graphfoundationmodels*"]
