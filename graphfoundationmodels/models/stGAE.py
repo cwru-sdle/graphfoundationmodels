@@ -270,7 +270,7 @@ class STConvDecoder(nn.Module):
 #Final Model
 class STConvAE(torch.nn.Module):
     def __init__(self, device, num_nodes, channel_size_list, num_layers, 
-                 kernel_size, K, window_size, kernel_size_de, stride, padding,\
+                 kernel_size, K, kernel_size_de, stride, padding,\
                  normalization = 'sym', bias = True):
     # num_nodes = number of nodes in the input graph
     # channel_size_list =  2d array representing feature dimensions throughout the model
