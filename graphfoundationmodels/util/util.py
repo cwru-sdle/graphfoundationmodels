@@ -60,4 +60,3 @@ def OSF_download(
 
     print(f"CSV file downloaded as {output_file}")
 
-OSF_download('graph_foundation7.csv', '/home/ssk213/CSE_MSE_RXF131/cradle-members/sdle/ssk213/git/pvplr-suraj')
