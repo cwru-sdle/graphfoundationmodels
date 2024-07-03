@@ -13,6 +13,10 @@ dependencies = [
     'torch-spatiotemporal',
     'torch_sparse'
 ]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
 license = { text = "BSD-2-Clause" }
 version = "2024.06.11"
 
