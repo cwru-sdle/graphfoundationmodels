@@ -8,6 +8,9 @@ name = "graphfoundationmodels"
 dependencies = [
     'numpy',
     'pandas',
+    'torch',
+    'tsl',
+    'pytorch_lightning',
     'torchvision',
     'torch_geometric',
     'torch-spatiotemporal',
