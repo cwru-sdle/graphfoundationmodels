@@ -20,6 +20,6 @@ Although these three systems are conceptually very different, the presented Foun
 You can download the data used in this work from OSF with the `util` module of this package. 
 For example, to download a PV site:
 ```
-from graphfoundationmodels.util import OSF_download
-
+from graphfoundationmodels.util.io import OSF_download
+OSF_download(0, 'downloaded_test.csv', './')
 ```
