@@ -27,3 +27,5 @@ test = ["pytest"]
 
 [tool.setuptools.packages.find]
 include = ["graphfoundationmodels*"]
+
+[tool.setuptools_scm]
