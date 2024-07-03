@@ -15,3 +15,11 @@ With a ddDT, it is possible to train the model in a self-supervised manner via a
 This module can then be used as a Foundation Model (FM) for different tasks without either constructing a entirely new task-specific eDT or training another ddDT from scratch. 
 This work presents a unified pipeline for constructing data-driven Foundation Models for three exemplifying cases: solar photovoltaic fleets, direct ink write additive manufacturing, and laser powder bed fusion. 
 Although these three systems are conceptually very different, the presented Foundation Model utilizes the flexibility of spatiotemporal graph neural networks (st-GNNs) to apply the same methodology to each case, allowing scientists to focus on their scientific objectives rather than troubleshooting a overwhelmingly detailed modeling pipeline. 
+
+## Downloading data
+You can download the data used in this work from OSF with the `util` module of this package. 
+For example, to download a PV site:
+```
+from graphfoundationmodels.util import OSF_download
+
+```
