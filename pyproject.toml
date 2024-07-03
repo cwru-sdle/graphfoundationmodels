@@ -13,12 +13,14 @@ dependencies = [
     'torch-spatiotemporal',
     'torch_sparse'
 ]
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{ name = "Ben Pierce", email = "pierce@case.edu" }]
+version = "2024.07.03"
 
 [project.optional-dependencies]
 test = ["pytest"]
 
-license = { text = "BSD-2-Clause" }
-version = "2024.06.11"
 
 [tool.setuptools.packages.find]
 include = ["graphfoundationmodels*"]
