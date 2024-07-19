@@ -143,5 +143,7 @@ def OSF_download(
 
 
 # Example
-# data = OSF_download('ss2010_CBOX_1', 'csv', None)
-# print(data)
+data2012 = OSF_download('ss2012_CBOX_1', 'csv', "/home/ssk213/CSE_MSE_RXF131/cradle-members/sdle/ssk213/git")
+data2013 = OSF_download('ss2013_CBOX_1', 'csv', "/home/ssk213/CSE_MSE_RXF131/cradle-members/sdle/ssk213/git")
+data2014 = OSF_download('ss2014_CBOX_1', 'csv', "/home/ssk213/CSE_MSE_RXF131/cradle-members/sdle/ssk213/git")
+data2015 = OSF_download('ss2015_CBOX_1', 'csv', "/home/ssk213/CSE_MSE_RXF131/cradle-members/sdle/ssk213/git")
